@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia</title>
+    <script src="js/Farmacia.js"></script>
+    <link rel="stylesheet" href="css/Farmacia.css">
+    
+</head>
+<body>
+    <div class="container farmacia">
+        <nav>
+            <ul>
+                <li><a href="AreaPrincipal.html">Página Inicial</a></li>
+                <li><a href="LanHouse.html">Promoção Lan House</a></li>
+                <li><a href="SuperMercado.html">Promoção Supermercado</a></li>
+            </ul>
+        </nav>
+        <h1> A Farmácia Baratissima</h1>
+        <p>Na compra de duas unidades, Você Terá o direito de receber os centavos do valor Total.</p>
+     <Label for="Medicamento"> Nome do Medicamento: </Label>
+     <input type="text" id="NomeMed" placeholder="Por Favor Digite O Nome Do Medicamento">
+     
+     <label for="Preco"> Preço do Medicamento: </label>
+     <input type="number" id="PrecoMed" placeholder="Por Favor Digite o Valor Do Medicamento">
+
+
+     <button onclick="DescontoFarmacia()">Calcular Promoção</button>
+
+     <p id="resultadoFar"></p>
+    </div>
+</body>
+</html>

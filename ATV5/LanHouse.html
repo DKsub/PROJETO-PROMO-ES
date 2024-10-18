@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LanHouse Do Bairro!!!</title>
+    <script src="js/Farmacia.js"></script>
+    <link rel="stylesheet" href="css/Farmacia.css">
+</head>
+<body>
+    <div class="container lanhouse">
+        <nav>
+            <ul>
+                <li><a href="AreaPrincipal.html">Página Inicial</a></li>
+                <li><a href="Farmacia.html">Promoção Farmacia</a></li>
+                <li><a href="SuperMercado.html">Promoção Supermercado</a></li>
+            </ul>
+        </nav>
+    
+        <h1>A Lan House Do Bairro</h1>
+        <p>Cobrança integral para frações de 15 minutos.</p>
+
+        <label for="precoLanhouse">Preço por 15 minutos (R$):</label>
+        <input type="number" id="precoTempoUso" placeholder="Digite o preço">
+
+        <label for="tempoLanhouse">Tempo de uso (minutos):</label>
+        <input type="number" id="tempoLanhouse" placeholder="Digite o tempo de uso">
+
+        <button onclick="LanhouseDoBairro()">Calcular Valor</button>
+
+        <p id="resultadoLanhouse"></p>
+    </div>
+</body>
+</html>

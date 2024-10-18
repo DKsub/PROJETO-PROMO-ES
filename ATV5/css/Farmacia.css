@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: white;
+    padding: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+.supermercado h1 {
+    color: #ffffff; 
+}
+
+.supermercado {
+    background-color: #000000;
+}
+
+.supermercado button {
+    background-color: gold;
+}
+
+.supermercado button:hover {
+    background-color: #FF5500;
+}
+
+
+.farmacia h1 {
+    color: #000000; 
+}
+
+.farmacia {
+    background-color: #ffa3a3;
+}
+
+.farmacia button {
+    background-color: #D6001C;
+}
+
+.farmacia button:hover {
+    background-color: #B10016;
+}
+
+
+.lanhouse h1 {
+    color: #000000; 
+}
+
+.lanhouse {
+    background-color: #b8ddff;
+}
+
+.lanhouse button {
+    background-color: #005BAC;
+}
+
+.lanhouse button:hover {
+    background-color: #004080;
+}
+
+
+.areaPrincipal {
+    text-align: center;
+}
+
+.areaPrincipal h1 {
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.areaPrincipal p {
+    font-size: 20px;
+}
+.areaPrincipal{
+    width: 100%;
+    max-width: 900px;
+    background-color: rgb(119, 0, 0);
+    padding: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+}
